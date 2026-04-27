@@ -1,0 +1,21 @@
+/* Seleccionamos por ID (se asigna con nodo.setId) */
+#root-principal {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 15;
+    -fx-background-radius: 20;
+}
+
+/* Seleccionamos por Clase (se asigna con nodo.getStyleClass().add) */
+.texto-blanco {
+    -fx-text-fill: white;
+}
+
+.boton-accion {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.boton-accion:hover {
+    -fx-background-color: #2ecc71;
+}
